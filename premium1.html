@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card</title>
+    <link rel="stylesheet" href="premium1.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      a{
+        text-decoration: none;
+      }
+      img{
+        align-items: left;
+        width: 35px;
+        float: left;
+      }
+    </style>
+</head>
+<body>
+  
+    <header>
+       
+     <a href="thetahome.html" title="Go back!"><img src="images/left-arrow.png" /></a>
+        <h1 style="text-align:center;">Our Pricing</h1>
+      
+        <div class="toggle" style="text-align: center;align-items:center;float: center;">
+          <label>Annually </label>
+          <div class="toggle-btn">
+            <input type="checkbox" class="checkbox" id="checkbox" />
+            <label class="sub" id="sub" for="checkbox">
+              <div class="circle"></div>
+            </label>
+          </div>
+          <label> Monthly</label>
+        </div>
+      </header>
+      <div class="cards">
+        <div class="card shadow">
+          <ul>
+            <li class="pack">Standard</li>
+            <li id="basic" class="price bottom-bar">&dollar;199.99</li>
+            <li class="bottom-bar">500 GB Storage</li>
+            <li class="bottom-bar">2 Users Allowed</li>
+            <li class="bottom-bar">Send up to 3 GB</li>
+            <li class="bottom-bar">50 Email Accounts</li>
+            <li><a href="pay1.html"><button class="btn"><i class="bi bi-bag"></i>&nbsp SUBSCRIBE</button></a></li>
+          </ul>
+        </div>
+        <div class="card active">
+          <ul>
+            <li class="pack">Professional</li>
+            <li id="professional" class="price bottom-bar">&dollar;249.99</li>
+            <li class="bottom-bar">1 TB Storage</li>
+            <li class="bottom-bar">5 Users Allowed</li>
+            <li class="bottom-bar">Send up to 10 GB</li>
+            <li class="bottom-bar">Unlimited Email Accounts</li>
+            <li><a href="pay1.html"><button class="btn active-btn"><i class="bi bi-bag"></i>&nbsp SUBSCRIBE</button></a></li>
+          </ul>
+        </div>
+        <div class="card shadow">
+          <ul>
+            <li class="pack">Master</li>
+            <li id="master" class="price bottom-bar">&dollar;399.99</li>
+            <li class="bottom-bar">2 TB Storage</li>
+            <li class="bottom-bar">10 Users Allowed</li>
+            <li class="bottom-bar">Send up to 20 GB</li>
+            <li class="bottom-bar">Unlimited Email Accounts</li>
+            <li><a href="pay1.html"><button class="btn"><i class="bi bi-bag"></i>&nbsp SUBSCRIBE</button></a></li>
+          </ul>
+        </div>
+      </div> 
+      <script src="premium1.js" />
+</body>
+</html>

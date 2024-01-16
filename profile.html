@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/logo.png" />
+    <title>Linkdin Clone</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-left">
+        <a href="thetahome.html" class="logo"><img src="image/logo..jpg" /></a>
+        <div class="search-box">
+          <img src="image/search.png" />
+          <input type="text" placeholder="Search" />
+        </div>
+      </div>
+      <div class="navbar-center">
+        <ul>
+          <li>
+            <a href="thetahome.html" class="active-link"
+              ><img src="images/home.png" /><span>Home</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images/network.png" /><span>My Network</span></a
+            >
+          </li>
+          <li>
+            <a href="#"><img src="images/jobs.png" /><span>Jobs</span></a>
+          </li>
+          <li>
+            <a href="message.html"
+              ><img src="images/message.png" /><span>Messaging</span></a
+            >
+          </li>
+          <li>
+            <a href="notification.html"
+              ><img src="images/notification.png" /><span
+                >Notifications</span
+              ></a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="navbar-right">
+        <div class="online">
+          <img
+          src="image/profile_1.jpeg"
+            class="nav-profile-img"
+            onclick="toggleMenu()"
+          />
+        </div>
+      </div>
+
+      <div class="profile-menu-wrap" id="profileMenu">
+        <div class="profile-menu">
+          <div class="user-info">
+            <img src="image/profile_1.jpeg" />
+            <div>
+              <h3>Jayram Sharma</h3>
+              <a href="profile.html">See your profile</a>
+            </div>
+          </div>
+          <hr />
+          <a href="#" class="profile-menu-link">
+            <img src="images/feedback.png" />
+            <p>Give Feedback</p>
+            <span>></span>
+          </a>
+          <a href="#" class="profile-menu-link">
+            <img src="images/setting.png" />
+            <p>Settings & Privacy</p>
+            <span>></span>
+          </a>
+          <a href="#" class="profile-menu-link">
+            <img src="images/help.png" />
+            <p>Help & Support</p>
+            <span>></span>
+          </a>
+          <a href="#" class="profile-menu-link">
+            <img src="images/display.png" />
+            <p>Display & Accessibility</p>
+            <span>></span>
+            <a href="#" class="profile-menu-link">
+              <img src="images/logout.png" />
+              <p>Logout</p>
+              <span>></span>
+            </a>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!--navbar close-->
+
+    <div class="container">
+      <div class="profile-main">
+        <div class="profile-container">
+          <img src="image/bgphoto.jpg" width="100%" height="140px" />
+          <div class="profile-container-inner">
+            <img src="image/profile_1.jpeg" class="profile-pic" />
+            <h1>Jayram Sharma</h1>
+            <b
+              >Frontend developer | ReactJS | JavaScript | Python | Redux | HTML
+              | CSS | NextJS | Cybersecurity |</b
+            >
+            <p>Hyderabad, India &middot; <a href="#">Contact info</a></p>
+            <div class="mutual-connection">
+              <img src="images/user-2.png" />
+              <span>1 mutual connection : Orlando Diggs</span>
+            </div>
+            <div class="profile-btn">
+              <a href="#" class="primary-btn"
+                ><img src="images/connect.png" />Connect</a
+              >
+              <a href="#"><img src="images/chat.png" />Message</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="profile-description">
+          <h2>About</h2>
+          <p>
+            👋 Greetings! I'm Om Jaju, a passionate B.Tech undergraduate
+            specializing in Electronics and Computer Engineering at Sreenidhi
+            Institute of Science and Technology (SNIST). 🎓💻 💡 As an aspiring
+            ReactJS Developer and Front-End Developer, I'm dedicated to building
+            modern and dynamic web applications. I believe in a hands-on
+            approach to learning and continuously enhance my skills through
+            project-based practice. 🚀📚
+          </p>
+          <a href="#" class="see-more-link">See more...</a>
+        </div>
+        <div class="profile-description">
+          <h2>Experience</h2>
+          <div class="profile-desc-row">
+            <img src="images/up.png" />
+            <div>
+              <h3>Freelancer Front-End Developer</h3>
+              <b>Upwork &middot; Full-time</b>
+              <b>Feb 2021 - Present &middot; 1.5 years</b>
+              <p>
+                I freelance on Upwork specializing in front-end development.
+                With expertise in HTML, CSS, and JavaScript, I create visually
+                appealing and responsive websites that enhance user experiences.
+                Let's collaborate to bring your web projects to life!
+              </p>
+              <hr />
+            </div>
+          </div>
+
+          <div class="profile-desc-row">
+            <img src="images/atlassian.png" />
+            <div>
+              <h3>Full Stack Developer Intern</h3>
+              <b>Atkassian &middot; 3-months</b>
+              <b>Dec 2020 - Jan 2021| &middot; 3 months</b>
+              <p>
+                As a Full Stack Developer Intern at Atlassian, I work on diverse
+                projects encompassing both front-end and back-end development.
+                Leveraging my skills in various technologies and tools, I
+                contribute to building innovative software solutions that
+                empower teams to collaborate efficiently and achieve their
+                goals.
+              </p>
+              <hr />
+            </div>
+          </div>
+
+          <hr />
+          <a href="#" class="experience-link"
+            >Show all & experiences <img src="images/right-arrow.png"
+          /></a>
+        </div>
+
+        <div class="profile-description">
+          <h2>Education</h2>
+          <div class="profile-desc-row">
+            <img src="images/snist.jpeg" />
+            <div>
+              <h3>Sreenidhi Institute of Science and Technology</h3>
+              <b>B.tech, Electronics and Computer Science Engineering </b>
+              <b>2020 - 2024</b>
+              <hr />
+            </div>
+          </div>
+
+          <div class="profile-desc-row">
+            <img src="images/sri.jpeg" />
+            <div>
+              <h3>Sri Chaitanya College</h3>
+              <b>MPC</b>
+              <b>2018 - 2020</b>
+              <hr />
+            </div>
+          </div>
+        </div>
+
+        <div class="profile-description">
+          <h2>Skills</h2>
+          <a href="#" class="skills-btn">Web Development</a>
+          <a href="#" class="skills-btn">HTML</a>
+          <a href="#" class="skills-btn">CSS</a>
+          <a href="#" class="skills-btn">JavaScript</a>
+          <a href="#" class="skills-btn">ReactJS</a>
+          <a href="#" class="skills-btn">NextJS</a>
+          <a href="#" class="skills-btn">Typescript</a>
+          <a href="#" class="skills-btn">Firebase</a>
+          <a href="#" class="skills-btn">Typescript</a>
+          <a href="#" class="skills-btn">Communication</a>
+          <a href="#" class="skills-btn">Planning</a>
+          <a href="#" class="skills-btn">Coding</a>
+          <a href="#" class="skills-btn">C++</a>
+          <a href="#" class="skills-btn">Python</a>
+        </div>
+        <div class="profile-description">
+          <h2>Languages</h2>
+          <a href="#" class="language-btn">English</a>
+          <a href="#" class="language-btn">Hindi</a>
+          <a href="#" class="language-btn">Marwadi</a>
+          <a href="#" class="language-btn">Gujarati</a>
+          <a href="#" class="language-btn">Marathi</a>
+        </div>
+      </div>
+
+      <div class="profile-sidebar">
+        <div class="sidebar-ad">
+          <small>Ad &middot; &middot; &middot;</small>
+          <p>Master all topics of Web Development</p>
+          <div>
+            <img src="image/profile_1.jpeg" />
+            <img src="images/web logo.png" />
+          </div>
+          <b>Technical Enthusiast</b>
+          <a href="#" class="ad-link">Learn More</a>
+        </div>
+
+        <div class="sidebar-people">
+          <h3>People you may know</h3>
+          <div class="sidebar-people-row">
+            <img src="images/user-3.png" />
+            <div>
+              <h2>Samuel Tony</h2>
+              <p>Head of marketing at Alibaba</p>
+              <a href="#">Connect</a>
+            </div>
+          </div>
+
+          <div class="sidebar-people-row">
+            <img src="images/user-4.png" />
+            <div>
+              <h2>Benjamin Leo</h2>
+              <p>Head of marketing at Alibaba</p>
+              <a href="#">Connect</a>
+            </div>
+          </div>
+
+          <div class="sidebar-people-row">
+            <img src="images/user-5.png" />
+            <div>
+              <h2>Steave Greg</h2>
+              <p>Head of marketing at Alibaba</p>
+              <a href="#">Connect</a>
+            </div>
+          </div>
+
+          <div class="sidebar-people-row">
+            <img src="images/user-2.png" />
+            <div>
+              <h2>Martin Lewis</h2>
+              <p>Head of marketing at Alibaba</p>
+              <a href="#">Connect</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="profile-footer">
+      <div class="sidebar-useful-links">
+        <a href="#">About</a>
+        <a href="#">Accessibility</a>
+        <a href="#">Help Center</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Advertising</a>
+        <a href="#">Get the App</a>
+        <a href="#">More</a>
+
+        <div class="copyright-msg">
+          <img src="image/logo..jpg" />
+          <p>Theta &#169; 2023</p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      let profileMenu = document.getElementById("profileMenu");
+      function toggleMenu() {
+        profileMenu.classList.toggle("open-menu");
+      }
+    </script>
+  </body>
+</html>
