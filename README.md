@@ -1,10 +1,26 @@
 'Theta reference' Demo:-
 ----------------------------------
-![Screenshot (93)](https://github.com/jayram0402/Theta_reference-similar-to-linkedin/assets/147648366/ba5418ad-d1c3-4ce8-ba86-b2e8016b907f)
-![Screenshot (92)](https://github.com/jayram0402/Theta_reference-similar-to-linkedin/assets/147648366/b8474cef-b5c4-41f7-8c91-1a6eda6f2658)
-![Screenshot (91)](https://github.com/jayram0402/Theta_reference-similar-to-linkedin/assets/147648366/c9a146e1-5dbc-4f12-b321-b8fa81e51677)
-![Screenshot (90)](https://github.com/jayram0402/Theta_reference-similar-to-linkedin/assets/147648366/610c9b25-08ef-4934-876e-98c4ba8a46ec)
-![Screenshot (89)](https://github.com/jayram0402/Theta_reference-similar-to-linkedin/assets/147648366/94e73545-9704-45e1-bf79-66b5c6bc3738)
+Home Page:
+![Screenshot (89)](https://github.com/jayram0402/Theta_reference-similar-to-linkedin/assets/147648366/5e6818fd-0a0d-46bb-ab1b-29f6645cfffb)
 
-Notification:
-![Screenshot (94)](https://github.com/jayram0402/Theta_reference-similar-to-linkedin/assets/147648366/cd124cbb-7feb-4208-b0e6-de3c5c59e767)
+Messaging-section:
+![Screenshot (95)](https://github.com/jayram0402/Theta_reference-similar-to-linkedin/assets/147648366/2abed508-ecfe-4908-9920-3c0955149136)
+
+Profile-section:
+![Screenshot (91)](https://github.com/jayram0402/Theta_reference-similar-to-linkedin/assets/147648366/00e3f8b2-5b5c-452b-931a-596645408416)
+
+![Screenshot (92)](https://github.com/jayram0402/Theta_reference-similar-to-linkedin/assets/147648366/bcf14957-bcd7-4578-ad51-160d3f39caf9)
+![Screenshot (93)](https://github.com/jayram0402/Theta_reference-similar-to-linkedin/assets/147648366/ac356629-3097-4e07-9612-da42cf32f7f6)
+
+Notification-section:
+![Screenshot (94)](https://github.com/jayram0402/Theta_reference-similar-to-linkedin/assets/147648366/6a501674-aafa-400f-b4a2-ead7e6e24f21)
+
+Mobile-view:
+![Screenshot (96)](https://github.com/jayram0402/Theta_reference-similar-to-linkedin/assets/147648366/e2c09089-157f-41f9-8eab-936eea9a9982)
+contact: jayramsharma0402@gmail.com
+
+
+
+
+
+
